@@ -1,0 +1,45 @@
+.button {
+    margin-top:60px;
+    margin-left:20px;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-color: white;
+    border-style: double;
+    background-color: white ;
+    cursor:pointer;
+}
+
+
+.button.sedan:hover {
+    background-color: hsl(31, 77%, 52%);
+    color:white;
+}
+.button.sedan{
+    color: hsl(31, 77%, 52%);
+}
+
+
+.button.suv:hover {
+    background-color: hsl(184, 100%, 22%);
+    color:white;
+}
+.button.suv{
+    color:hsl(179, 100%, 13%)
+}
+
+.button.luxury:hover {
+    background-color: hsl(179, 100%, 13%);
+    color:white;
+}
+.button.luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width:700px) {
+    .button{
+        margin-left:70px;
+    }
+    
+}

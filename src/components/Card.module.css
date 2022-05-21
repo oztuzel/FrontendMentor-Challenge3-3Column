@@ -1,0 +1,40 @@
+.card {
+    height: 500px;
+    align-items: center;
+    position: relative;
+    align-items: center;
+    padding-left: 30px;
+    color:white;
+    padding-right: 75px;
+    line-height: 25px;
+    
+}
+
+.card.sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.title {
+    padding-top: 18px;
+}
+
+.text {
+    padding-top:18px;
+}
+
+.img {
+    margin-top: 50px;
+}
+
